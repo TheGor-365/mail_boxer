@@ -1,0 +1,2 @@
+module DisscussionsHelper
+end

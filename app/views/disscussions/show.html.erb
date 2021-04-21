@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @disscussion.title %>
+</p>
+
+<%= link_to 'Edit', edit_disscussion_path(@disscussion) %> |
+<%= link_to 'Back', disscussions_path %>
+
+<h4>Comments</h4>
+<%= render @disscussion.comments %>
